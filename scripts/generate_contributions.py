@@ -79,16 +79,16 @@ def collect(org: str, token: str, today: date) -> tuple[Counter[date], list[str]
         )
         for commit in commits:
             author = commit.get("author")
-            if not isinstance(author, dict):
-                continue
-            login = str(author.get("login", ""))
-            if login.endswith("[bot]"):
-                continue
             commit_data = commit.get("commit")
             if not isinstance(commit_data, dict):
                 continue
             author_data = commit_data.get("author")
             if not isinstance(author_data, dict) or not author_data.get("date"):
+                continue
+            login = str(author.get("login", "")) if isinstance(author, dict) else ""
+            name = str(author_data.get("name", ""))
+            email = str(author_data.get("email", ""))
+            if login.endswith("[bot]") or "[bot]" in name or "[bot]" in email:
                 continue
             committed = datetime.fromisoformat(str(author_data["date"]).replace("Z", "+00:00"))
             counts[committed.date()] += 1
