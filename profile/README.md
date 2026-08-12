@@ -56,11 +56,11 @@
   <a href="https://github.com/AndOrNot-Lab/sourcer/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/AndOrNot-Lab/sourcer?style=for-the-badge&amp;label=LICENSE&amp;color=0969da" alt="Sourcer license" />
   </a>
-  <a href="https://github.com/AndOrNot-Lab/sourcer/network/members">
-    <img src="https://img.shields.io/github/forks/AndOrNot-Lab/sourcer?style=for-the-badge&amp;label=FORKS&amp;color=cf4a3c" alt="Sourcer forks" />
+  <a href="https://github.com/AndOrNot-Lab/.github/actions/workflows/update-contributions.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/AndOrNot-Lab/.github/update-contributions.yml?style=for-the-badge&amp;label=CONTRIBUTIONS&amp;color=1a7f37" alt="Contribution chart workflow status" />
   </a>
-  <a href="https://github.com/AndOrNot-Lab?tab=followers">
-    <img src="https://img.shields.io/github/followers/AndOrNot-Lab?style=for-the-badge&amp;label=FOLLOWERS&amp;color=8250df" alt="AndOrNot Lab followers" />
+  <a href="https://github.com/AndOrNot-Lab/.github/commits/main">
+    <img src="https://img.shields.io/github/last-commit/AndOrNot-Lab/.github?style=for-the-badge&amp;label=PROFILE&amp;logo=github&amp;color=8250df" alt="Latest organization profile update" />
   </a>
 </p>
 
