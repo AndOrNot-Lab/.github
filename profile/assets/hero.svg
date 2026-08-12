@@ -1,0 +1,89 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AndOrNot Lab</title>
+  <desc id="desc">Practical AI, automation and developer tools. AND, OR and NOT signals converge into a single output.</desc>
+  <style>
+    :root {
+      --bg: #f6f8fa;
+      --surface: #ffffff;
+      --border: #d0d7de;
+      --text: #1f2328;
+      --muted: #59636e;
+      --green: #1a7f37;
+      --blue: #0969da;
+      --coral: #cf4a3c;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --surface: #161b22;
+        --border: #30363d;
+        --text: #f0f6fc;
+        --muted: #8b949e;
+        --green: #3fb950;
+        --blue: #58a6ff;
+        --coral: #ff7b72;
+      }
+    }
+    .frame { fill: var(--bg); stroke: var(--border); }
+    .surface { fill: var(--surface); stroke: var(--border); }
+    .text { fill: var(--text); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .muted { fill: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .signal { transform-box: fill-box; transform-origin: left center; animation: signal-in 780ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    .signal.two { animation-delay: 60ms; }
+    .signal.three { animation-delay: 120ms; }
+    .output { transform-box: fill-box; transform-origin: center; animation: output-in 420ms cubic-bezier(0.23, 1, 0.32, 1) 510ms both; }
+    .copy { animation: copy-in 520ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    .copy.two { animation-delay: 70ms; }
+    @keyframes signal-in {
+      from { opacity: 0; transform: scaleX(.06); }
+      to { opacity: 1; transform: scaleX(1); }
+    }
+    @keyframes output-in {
+      from { opacity: 0; transform: scale(.94); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes copy-in {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .signal, .output, .copy { animation: none; }
+    }
+  </style>
+
+  <rect class="frame" x="1" y="1" width="998" height="318" rx="8" />
+  <rect class="surface" x="32" y="28" width="936" height="264" rx="6" />
+
+  <g class="copy">
+    <circle cx="64" cy="58" r="5" fill="var(--coral)" />
+    <circle cx="82" cy="58" r="5" fill="var(--blue)" />
+    <circle cx="100" cy="58" r="5" fill="var(--green)" />
+    <text class="muted" x="124" y="63" font-size="13">ANDORNOT / LAB SYSTEM 01</text>
+    <text class="text" x="64" y="130" font-size="50" font-weight="700">AND OR NOT</text>
+  </g>
+  <g class="copy two">
+    <text class="muted" x="67" y="164" font-size="16">PRACTICAL AI &#183; AUTOMATION &#183; DEVELOPER TOOLS</text>
+  </g>
+
+  <g aria-hidden="true">
+    <g class="signal">
+      <circle cx="72" cy="215" r="6" fill="var(--green)" />
+      <path d="M88 215H352L392 255H790" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text class="muted" x="92" y="205" font-size="11">AND / CONNECT</text>
+    </g>
+    <g class="signal two">
+      <circle cx="332" cy="215" r="6" fill="var(--blue)" />
+      <path d="M348 215H790" stroke="var(--blue)" stroke-width="3" stroke-linecap="round" />
+      <text class="muted" x="352" y="205" font-size="11">OR / EXPLORE</text>
+    </g>
+    <g class="signal three">
+      <circle cx="584" cy="215" r="6" fill="var(--coral)" />
+      <path d="M600 215H720L760 255H790" stroke="var(--coral)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text class="muted" x="604" y="205" font-size="11">NOT / REFINE</text>
+    </g>
+    <g class="output">
+      <rect x="810" y="230" width="126" height="50" rx="6" fill="var(--text)" />
+      <text x="873" y="260" text-anchor="middle" fill="var(--bg)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">SHIP -&gt;</text>
+    </g>
+  </g>
+</svg>

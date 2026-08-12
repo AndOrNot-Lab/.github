@@ -1,0 +1,14 @@
+<svg width="460" height="92" viewBox="0 0 460 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">NOT - Refine</title>
+  <style>
+    :root { --bg:#fff2f0; --line:#ffc7c2; --accent:#cf4a3c; --ink:#81352d; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#321816; --line:#6e312c; --accent:#ff7b72; --ink:#ffd0cc; } }
+    .label { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+  </style>
+  <rect x="1" y="1" width="458" height="90" rx="7" fill="var(--bg)" stroke="var(--line)" />
+  <circle cx="34" cy="46" r="7" fill="var(--accent)" />
+  <path d="M50 46H113M67 30L97 62" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" />
+  <text class="label" x="136" y="56" fill="var(--ink)" font-size="32" font-weight="700">NOT</text>
+  <text class="label" x="380" y="51" fill="var(--accent)" font-size="12" text-anchor="end">REFINE</text>
+</svg>
+

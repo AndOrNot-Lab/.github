@@ -1,0 +1,14 @@
+<svg width="460" height="92" viewBox="0 0 460 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">OR - Explore</title>
+  <style>
+    :root { --bg:#eef6ff; --line:#b6d9ff; --accent:#0969da; --ink:#0a4585; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#0f2238; --line:#244f7d; --accent:#58a6ff; --ink:#b6d9ff; } }
+    .label { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+  </style>
+  <rect x="1" y="1" width="458" height="90" rx="7" fill="var(--bg)" stroke="var(--line)" />
+  <circle cx="34" cy="46" r="7" fill="var(--accent)" />
+  <path d="M50 46H82M82 46L109 27M82 46L109 65" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" />
+  <text class="label" x="136" y="56" fill="var(--ink)" font-size="32" font-weight="700">OR</text>
+  <text class="label" x="380" y="51" fill="var(--accent)" font-size="12" text-anchor="end">EXPLORE</text>
+</svg>
+

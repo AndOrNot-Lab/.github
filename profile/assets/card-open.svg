@@ -1,0 +1,13 @@
+<svg width="460" height="92" viewBox="0 0 460 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Open signal - explore public repositories</title>
+  <style>
+    :root { --bg:#f6f8fa; --line:#d0d7de; --accent:#8250df; --ink:#3b295f; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#1d162b; --line:#49356d; --accent:#bc8cff; --ink:#e2ccff; } }
+    .label { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+  </style>
+  <rect x="1" y="1" width="458" height="90" rx="7" fill="var(--bg)" stroke="var(--line)" />
+  <circle cx="34" cy="46" r="7" fill="var(--accent)" />
+  <path d="M50 46H111M95 31L111 46L95 61" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <text class="label" x="136" y="56" fill="var(--ink)" font-size="32" font-weight="700">OPEN</text>
+  <text class="label" x="408" y="51" fill="var(--accent)" font-size="12" text-anchor="end">PUBLIC WORK -&gt;</text>
+</svg>
