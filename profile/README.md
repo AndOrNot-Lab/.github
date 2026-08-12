@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/logo.png" width="96" height="96" alt="AndOrNot Lab logo" />
+</p>
+
+<p align="center">
   <strong>把想法连接起来，为替代方案留门，删掉没有价值的复杂度。</strong><br />
   <sub>Connect ideas. Keep alternatives open. Remove what does not earn its place.</sub>
 </p>
@@ -42,6 +46,41 @@
       <h3>开放 / Open</h3>
       <p>项目先在内部孵化；当它足够清晰、可靠且可复用时，再走向公开。</p>
       <sub>Projects incubate privately, then open when they are clear, reliable, and reusable.</sub>
+    </td>
+  </tr>
+</table>
+
+## Live signals
+
+<p align="center">
+  <a href="https://github.com/AndOrNot-Lab/sourcer/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/AndOrNot-Lab/sourcer?style=for-the-badge&amp;label=LICENSE&amp;color=0969da" alt="Sourcer license" />
+  </a>
+  <a href="https://github.com/AndOrNot-Lab/sourcer/network/members">
+    <img src="https://img.shields.io/github/forks/AndOrNot-Lab/sourcer?style=for-the-badge&amp;label=FORKS&amp;color=cf4a3c" alt="Sourcer forks" />
+  </a>
+  <a href="https://github.com/AndOrNot-Lab?tab=followers">
+    <img src="https://img.shields.io/github/followers/AndOrNot-Lab?style=for-the-badge&amp;label=FOLLOWERS&amp;color=8250df" alt="AndOrNot Lab followers" />
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Toolbox / 工具箱</h3>
+      <p>我们按问题选择工具，不为技术栈本身设限。</p>
+      <p>
+        <a href="https://github.com/AndOrNot-Lab?tab=repositories">
+          <img src="https://skillicons.dev/icons?i=python,ts,docker,githubactions&amp;theme=dark" alt="Python, TypeScript, Docker and GitHub Actions" />
+        </a>
+      </p>
+      <sub>Tools follow the problem, not the other way around.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Build loop / 构建循环</h3>
+      <p><code>observe → prototype → test → refine → open</code></p>
+      <p>从真实摩擦开始，以可复用的公开成果结束。</p>
+      <sub>Start with real friction. End with reusable public work.</sub>
     </td>
   </tr>
 </table>
