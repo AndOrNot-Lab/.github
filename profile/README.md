@@ -64,6 +64,18 @@
   </a>
 </p>
 
+## Project contributions
+
+<p align="center">
+  <a href="https://github.com/orgs/AndOrNot-Lab/repositories">
+    <img src="./assets/contributions.svg" width="100%" alt="AndOrNot Lab organization-owned public repository contribution activity over the last 52 weeks" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Based on organization-owned public repositories. Fork history and bots are excluded; newly opened projects join automatically.</sub>
+</p>
+
 <table>
   <tr>
     <td width="50%" valign="top">
